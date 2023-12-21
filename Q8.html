@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q8</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        #profilePic {
+            margin: 20px;
+            padding: 10px;
+            height: 19rem;
+            width: 19rem; 
+            background-image: url("https://techtip24.com/public/frontend/assets/img/user3.jpg");
+        }
+    </style>
+</head>
+<body>
+    <div class="card" style="justify-content: center; text-align: center; margin: 10px; width: 35rem;">
+        <div class="card-body">
+            <div id="profilePic"></div>
+            <input type="file" accept="image/*">
+        </div>
+        <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="">First and last name</span>
+            </div>
+            <input type="text" class="form-control">
+            <input type="text" class="form-control">
+        </div>
+        <input type="email" class="form-control" placeholder="Email" style="margin-top: 10px;">
+        <input type="password" class="form-control" placeholder="Password" style="margin-top: 10px;">
+        <input type="submit" class="btn btn-primary" placeholder="Submit" style="margin-top: 10px;">
+    </div>
+</body>
+</html>
